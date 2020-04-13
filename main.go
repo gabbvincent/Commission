@@ -5,7 +5,7 @@
 package main
 
 import "fmt"
-//Create function to determine commion based on sales price
+//Create function to determine commission based on sales price
 func Commission(a int)(string, int){
   if a <= 50000{ //if price is 50k or less, then 4% commission
     return "your commission is $", (a*4)/100
